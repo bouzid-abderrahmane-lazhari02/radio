@@ -21,7 +21,7 @@ class Pl{
         this.titele = document.getElementById("p1");
         this.Player = document.getElementById("img3");
         this.main = document.getElementById("main1");
-        this.h2 = document.getElementById("h2");
+        this.h2 = document.getElementById("div2");
     
     this.names_radio =[];
     this.names_radio[0]="القناة الالى";
@@ -127,10 +127,13 @@ class Pl{
       this.nav.style.display = "none";
       this.h2.style.display = "none";
     });
-
-    
-
-
+document.getElementById("button").onclick = ()=>{
+      this.main.style.display = "none";
+      this.h2.style.display = "unset";
+      this.nav.style.display = "unset";
+      this.audio.pause();
+      this.isplayed = false;
+    };
     }
 
     play_fatiha(){
