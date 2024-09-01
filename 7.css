@@ -95,3 +95,23 @@ h2{
     background: #f0ff66;
     text-align: center;
 }
+#button{
+    width: 90px;
+    height: 40px;
+    font-size: larger;
+    color: lightcyan;
+    background: none;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: aliceblue;
+}
+#button:hover{
+    width: 90px;
+    height: 40px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: inset;
+    border-color: aliceblue;
+}
