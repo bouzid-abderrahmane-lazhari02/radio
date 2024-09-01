@@ -71,61 +71,61 @@ class Pl{
     this.fatiha.addEventListener("click", ()=>{
       this.play_fatiha();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
 
     this.bakara = document.getElementById("article5");
     this.bakara.addEventListener("click", ()=>{
       this.play_bakara();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
 
     this.aliomran = document.getElementById("article6");
     this.aliomran.addEventListener("click", ()=>{
       this.play_alomran();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
 
     this.nisaa = document.getElementById("article7");
     this.nisaa.addEventListener("click", ()=>{
       this.play_alnisaa();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
 
     this.koran = document.getElementById("article8");
     this.koran.addEventListener("click", ()=>{
       this.play_koran();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
     this.takafe = document.getElementById("article9");
     this.takafe.addEventListener("click", ()=>{
       this.play_takafe();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
     this.jilFM = document.getElementById("article10");
     this.jilFM.addEventListener("click", ()=>{
       this.play_jilFM();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
     this.bahdja = document.getElementById("article11");
     this.bahdja.addEventListener("click", ()=>{
       this.play_bahdja();
       this.main.style.display = "unset";
-      this.nav.style.width = "60%";
-      this.h2.style.width = "60%";
+      this.nav.style.display = "none";
+      this.h2.style.display = "none";
     });
 
     
