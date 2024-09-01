@@ -39,7 +39,7 @@ class Color{
         }
 
         else if(color == "button3"){
-            document.body.style.background ="linear-gradient(to right, #f0ff66,#d11ac8)";
+            document.body.style.background ="rgb(4, 180, 211)";
         }
 
         else if(color == "button4"){
